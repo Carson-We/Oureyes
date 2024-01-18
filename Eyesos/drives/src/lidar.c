@@ -2,17 +2,14 @@
 #include "lidar.h"
 
 void ultrasound_init() {
-    printf("Ultrasound: Initializing ultrasound...\n");
-    // 初始化超聲波設備
+    printf("LiDAR: Initializing ultrasound...\n");
 }
 
 void ultrasound_send_pulse() {
-    printf("Ultrasound: Sending pulse...\n");
-    // 發送超聲波脈衝
+    printf("LiDAR: Sending pulse...\n");
 }
 
 float ultrasound_receive_echo() {
-    printf("Ultrasound: Receiving echo...\n");
-    // 接收超聲波回波並返回距離
+    printf("LiDAR: Receiving echo...\n");
     return 0.0;
 }
