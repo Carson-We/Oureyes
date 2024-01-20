@@ -31,4 +31,4 @@ model.fit(
     steps_per_epoch=train_generator.samples // batch_size,
     epochs=10)
 
-model.save('FruitClassifier.keras')
+model.save('AugmentedVision.keras')
